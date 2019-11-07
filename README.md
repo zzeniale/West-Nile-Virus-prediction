@@ -35,15 +35,15 @@ In view of the recent outbreak of WNV in Chicago, the Chicago Department of Publ
 
 #### Summary of Findings & Recommendations
 ---
-<img src="../images/heatmap.png" width=800 align = center>
+<img src="../images/heatmap.png" width=600 align = center>
 
 <p style="font-size:7px; color:grey;" align='center'>(Occurrences of WNV and mosquito spraying efforts in Chicago from May - Sept in 2007, 2009, 2011, and 2013.)</p>
 
 Using XGBoost (our best performing model), we achieved an ROC_AUC of **0.839** and the following confusion matrix:
-|predicted WNV absent|predicted WNV present
-|---|---|
-|actual WNV absent|2045|444
-|actual WNV present|54|84
+|predicted WNV absent|predicted WNV present|
+|---|---|---|
+|actual WNV absent|2045|444|
+|actual WNV present|54|84|
 
 Using the model, we found that WNV is more prevalent under certain conditions. **Week of year** was the top predictor by far for our model, followed by day of year, 10-days rolling sum of daylight hours, <i>Culex restuans</i>, and 10-days rolling mean of average temperature. This means that WNV is most likely to occur during certain weeks of the year (in August), and therefore spray efforts should be concentrated during this period. Location was not a strong predictor in our model, suggesting that WNV clusters may be transient, occurring where best conditions emerge. 
 
