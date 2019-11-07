@@ -12,25 +12,25 @@ In view of the recent outbreak of WNV in Chicago, the Chicago Department of Publ
 
 #### Folder Organisation:
 ---
-|__ code
-|   |__ 01_eda_and_feature_engineering.ipynb   
-|   |__ 02_model_tuning_and_insights.ipynb     
-|__ data
-|   |__ train.csv
-|   |__ test.csv
-|   |__ train_processed.csv
-|   |__ test_processed.csv
-|   |__ weather.csv
-|   |__ spray.csv
-|   |__ mapdata_copyright_openstreetmap_contributors.txt
-|__ images
-|   |__ heatmaps.png
-|   |__ species_count.png
-|   |__ wnv_by_year.png
-|   |__ wnv_distribution.png
-|__ planning_documentation.xlsx
-|__ presentation.ppt
-|__ README.md
+    |__ code
+    |   |__ 01_eda_and_feature_engineering.ipynb   
+    |   |__ 02_model_tuning_and_insights.ipynb     
+    |__ data
+    |   |__ train.csv
+    |   |__ test.csv
+    |   |__ train_processed.csv
+    |   |__ test_processed.csv
+    |   |__ weather.csv
+    |   |__ spray.csv
+    |   |__ mapdata_copyright_openstreetmap_contributors.txt
+    |__ images
+    |   |__ heatmaps.png
+    |   |__ species_count.png
+    |   |__ wnv_by_year.png
+    |   |__ wnv_distribution.png
+    |__ planning_documentation.xlsx
+    |__ presentation.ppt
+    |__ README.md
 
 
 #### Summary of Findings & Recommendations
