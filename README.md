@@ -35,7 +35,9 @@ In view of the recent outbreak of WNV in Chicago, the Chicago Department of Publ
 
 #### Summary of Findings & Recommendations
 ---
+Using our best performing model **(NAME)**, we achieved an ROC_AUC of **XXXXX**. 
 
+After conducting a cost-benefit analysis, we found that the money saved from reducing WNV cases would at most fund about 300 - 500 sprays. However, as the current datasets do not substantially point to a significant impact from spraying, more evidence (from a better designed spraying regime) are needed for a more concrete recommendation. For example, spraying efforts could be concentrated at the beginning of August so that there would be enough time to observe if mosquito numbers decline, in the relative absence of other confounding factors (such as temperature). 
 
 
 
