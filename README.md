@@ -10,14 +10,36 @@ While WNV is not extremely virulent and only about 1 in 5 people who are infecte
 
 In view of the recent outbreak of WNV in Chicago, the Chicago Department of Public Health (CDPH) has set up a surveillance and control system to trap mosquitos and test for the presence of WNV. The goal of this project is to use these surveillance data to predict the occurrence of WNV given time, location, and mosquito species. Findings from this project will guide and inform decisions on where and when to deploy pesticides throughout the city, to maximise pesticide effectiveness and minimise spending.
 
+#### Folder Organisation:
+---
+|__ code
+|   |__ 01_eda_and_feature_engineering.ipynb   
+|   |__ 02_model_tuning_and_insights.ipynb     
+|__ data
+|   |__ train.csv
+|   |__ test.csv
+|   |__ train_processed.csv
+|   |__ test_processed.csv
+|   |__ weather.csv
+|   |__ spray.csv
+|   |__ mapdata_copyright_openstreetmap_contributors.txt
+|__ images
+|   |__ heatmaps.png
+|   |__ species_count.png
+|   |__ wnv_by_year.png
+|   |__ wnv_distribution.png
+|__ planning_documentation.xlsx
+|__ presentation.ppt
+|__ README.md
 
-### Summary of Findings & Recommendations
+
+#### Summary of Findings & Recommendations
 ---
 
 
 
 
-### Data Dictionary
+#### Data Dictionary
 ---
 
 |Feature|Type|Dataset|Description|
