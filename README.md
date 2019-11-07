@@ -35,11 +35,12 @@ In view of the recent outbreak of WNV in Chicago, the Chicago Department of Publ
 
 #### Summary of Findings & Recommendations
 ---
-<img src="../images/heatmap.png" width=600 align = center>
+<img src="./images/heatmaps.png" width=600 align = center>
 
 <p style="font-size:7px; color:grey;" align='center'>(Occurrences of WNV and mosquito spraying efforts in Chicago from May - Sept in 2007, 2009, 2011, and 2013.)</p>
 
 Using XGBoost (our best performing model), we achieved an ROC_AUC of **0.839** and the following confusion matrix:
+
 |predicted WNV absent|predicted WNV present|
 |---|---|---|
 |actual WNV absent|2045|444|
