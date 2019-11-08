@@ -29,7 +29,7 @@ In view of the recent outbreak of WNV in Chicago, the Chicago Department of Publ
     |   |__ wnv_by_year.png
     |   |__ wnv_distribution.png
     |__ planning_documentation.xlsx
-    |__ presentation.ppt
+    |__ group_presentation.ppt
     |__ README.md
 
 
