@@ -35,18 +35,17 @@ In view of the recent outbreak of WNV in Chicago, the Chicago Department of Publ
 #### Summary of Findings & Recommendations
 ---
 
-<center><img src="./images/heatmaps.png" width=600 align = 'center'></center>
+<img src="./images/heatmap_years.gif" width=800 align = 'center'>
+<img src="./images/labels.png" width=400 align = 'center'>
 
 <p style="font-size:7px; color:grey;" align='center'>(Occurrences of WNV and mosquito spraying efforts in Chicago from May - Sept in 2007, 2009, 2011, and 2013.)</p>
-
-Using XGBoost (our best performing model), we achieved an ROC_AUC of **0.834** and the following confusion matrix:
 
 ||predicted WNV absent|predicted WNV present|
 |---|---|---|
 |actual WNV absent|2031|458|
 |actual WNV present|50|88|
 
-Using the model, we found that WNV is more prevalent under certain conditions. **Week of year** was the top predictor by far for our model, followed by day of year, 18-days rolling sum of daylight hours, <i>Culex restuans</i>, and 18-days rolling mean of average temperature. This means that WNV is most likely to occur during certain weeks of the year (in August, as shown in the figure above), and therefore spray efforts should be concentrated during this period. Location was not a strong predictor in our model, suggesting that WNV clusters may be transient, occurring where best conditions emerge. 
+Using XGBoost (our best performing model), we achieved an ROC_AUC of **0.834** with the confusion matrix above. Using the model, we found that WNV is more prevalent under certain conditions. **Week of year** was the top predictor by far for our model, followed by day of year, 18-days rolling sum of daylight hours, <i>Culex restuans</i>, and 18-days rolling mean of average temperature. This means that WNV is most likely to occur during certain weeks of the year (in August, as shown in the figure above), and therefore spray efforts should be concentrated during this period. Location was not a strong predictor in our model, suggesting that WNV clusters may be transient, occurring where best conditions emerge. 
 
 After conducting a cost-benefit analysis, we found that the money saved from reducing WNV cases would at most fund about 300 - 500 sprays. However, as the current datasets do not substantially point to a significant impact from spraying, more evidence (from a better designed spraying regime) are needed for a more concrete recommendation. For example, spraying efforts could be concentrated at the beginning of August so that there would be enough time to observe if mosquito numbers decline, in the relative absence of other confounding factors (such as temperature). 
 
