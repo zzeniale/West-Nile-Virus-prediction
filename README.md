@@ -34,10 +34,8 @@ In view of the recent outbreak of WNV in Chicago, the Chicago Department of Publ
 
 #### Summary of Findings & Recommendations
 ---
-
-<img src="./images/heatmap_years.gif" width=800 align = 'center'>
-<img src="./images/labels.png" width=400 align = 'center'>
-
+<img src="./images/labels.png" width=200 align = 'center'>
+<img src="./images/heatmap_years.gif" align = 'center'>
 <p style="font-size:7px; color:grey;" align='center'>(Occurrences of WNV and mosquito spraying efforts in Chicago from May - Sept in 2007, 2009, 2011, and 2013.)</p>
 
 ||predicted WNV absent|predicted WNV present|
